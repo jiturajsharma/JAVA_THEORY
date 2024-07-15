@@ -1,0 +1,86 @@
+Just like we have some rules that we follow to speak english (the grammer), we have some rules to follow while writing a java program. The set of these rules is called syntax.
+
+
+VARIABLES :- 
+                A variable is a contains that stores a value. This value can be changed during the execution of the program.
+                Eg:- 
+                        int number = 8;  - Value it sotres!
+
+    * Rules for declaring a variable name
+    -> We can choose a name while declaring a java variable if the following rules are followed.
+
+    1. Must not being with a digit  :- int 1array is invalid
+    2. Name is Case sensitive - jitu and harry are different 
+    3. Should not be a keyword - (like void)
+    4. White space not allowed - int Code with Jitu is invalid
+    5. Can contain alphabets,  & character, __character and digits if the other conditions are next
+
+    + Data Types:-
+            Data types in java fall under the following categories 
+            1. Primitive data types (Intensiv)
+            2. Non-primitive Data types (Derived)
+
+
+    * Primitive Data Types :- 
+                        Java is statically typed :- variable must be declared before we!
+                            There are 8 primitive data types supported by java.
+                        
+            1. byte     -> 
+                        * value ranges from - 128 to  127
+                        * Takes 1 byte
+                        * Default value is 0
+            2. Short :-> 
+                        * takes 2 bytes
+                        * Default value is 0
+            3. Float :->
+                        * Value ranges from (Sec Docs)
+                        * Takes 4 bytes
+                        * Default value is 0.0f
+            4. Long :->
+                        * Takes 8 bytes
+                        * Default value is 0
+            5. Double :- 
+                        * Takes 8 bytes
+                        * Default value is 0.0d
+            7. Char :->
+                        * Value ranges from 0 to 65525
+                        * Takes 2 bytes - because it supports unicode
+                        * Defalut value is '/0000'
+            8. Boolean :->
+                        * Value can be true or false 
+                        * Size depends on JVM
+                        * Defalut value is false
+
+
+    ** How to choose data types four our variable
+
+
+                        ** Primitive Data Types **
+    In order to choose the data types we first need to find the type of data we want to store. After that we need to analyze the min and max value we might use. 
+
+    * Literals :- 
+                    A constant value which can be assigned to the variable is called as a Literals
+
+            101 - integer Literals
+            10.1 f -> Float Literals
+            10.1 -> Double literal - Defalut typ for decimals
+            'A' -> Character literal 
+            true - boolean literal
+            "Jitu" - String literal
+
+
+    ** keywords :-
+                Words which are reserved and used by the java compiler. They cannot be used as an identifier.
+
+
+    ** Reading data from the keyword :- 
+                In order to read data from the keybord, java as a scanner class
+                Scanner class has a bit of methods to read the data from the keyboard.
+
+
+        Scanner S = new Scanner (System.in);
+                                                            -> Read from the keyword
+            int a = S.nextInt();
+                                Method to read from the keybord
+                                    (Integer in this case)
+            

@@ -1,0 +1,34 @@
+* INTRODUCTION TO JAVA
+
+java is an Object Oriented programming language developed by suym microsofts of USA in 1991
+    It was originally called OAK by james(One of the inventors of java) Goslin.
+
+        JAVA = purely object Oriented
+
+    * HOW TO JAVA WORKS?
+    -> java is compiled into the bytcode and then it is interpreted to machine code.
+
+    *** JAVA INSTALLATION
+        -> JDK :- java development kit - collection of tools
+                        used for seveloping and runing java programming
+        -> JRE - javaq runtime environment - Helps in executing programs developed in JAVA
+    
+    ** Basic structure of a java programming
+        package can company -> Group class !!
+
+        Public class Main{
+            public static void main (String[]args){
+                system.out.println("Hello World")
+            }
+        }
+
+
+        // Naming Conventions :- 
+            -> For class we use Pascal Conventions for and subrequent characters from a word are copilal letters (upprcase)
+            Example :- 
+                    Main ,MyScanner, MyEnbyte, 
+
+                    -> For function and varibale we use CamelCase Convention Here first character is lower and the subrequest charactirs are upper like below.
+                        main, myScaner, myMarks, CodeWithJitu
+
+                        
