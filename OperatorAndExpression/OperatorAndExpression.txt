@@ -1,0 +1,32 @@
+** Operator and Expressions
+-> Operator and used to perform operations on variable and values.
+
+-----TYPES OF OPERATORS------
+-> Arithemetic Operators -> +, -, * / , %, ++, --
+-> Assignment Operators -> =, +, =
+ -> Comparision operators -> ==, >=, <=
+ -> Bitwise Operators -> &, |, coperates Bitwise
+
+ * Arithemetic operators cannot work with booleans % operator can work on floats & doubles
+
+ ** Precedence of operators :->
+                        The operators are applied and evaluated based on precdence. for example (+, -) has less precedence compared to (*, I). Hence 4& / are evaluated first
+                        In case we like to change this order, we use parenthesis
+    **Associativity:->
+                    Associativity tells the direction of execution of operators. In can either be left to right or right to left.
+                    * / -> L to right
+                    + - -> L to right
+                    ++ = -> R to left
+
+* Resulting data type ofter arithemetic operations
+    -> Following table summariges the resulting data type after artithemetic oprator on them.
+
+    **j Increment and Decrement operators
+    -> a++ , ++a -> Increment operators - Datatype
+    -> a--, --a -> Decrement operator - remain same
+
+                There will operate on all data types except booleans
+                a++ -> First use the value and then increment 
+                ++a -> First increment the value the use increment
+            
+    

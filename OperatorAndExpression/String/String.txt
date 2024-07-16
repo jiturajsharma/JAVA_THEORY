@@ -1,0 +1,35 @@
+                                                    STRING
+        A string is a sequence of characters
+        A string is instantiated as follows:
+
+        String name;
+        name = new String ("Jitu");
+        ** String is a class but can be used like a data type(String are immutable and cannot be            changed)
+
+        ** 
+        Different ways to print in Java
+        -> We can use the folowing ways to print in Java
+        * System.out.prin() - > No newline at the end!
+        * System.out.println() -> Print a new line at the end
+        * System.out.format()
+        System.out.print("/C", ch)
+
+        * String methods
+        -> String methods operator on java strings. They can be used to find length of the string, convert to lowercase, etc
+                    -> Some of the commonly used String methods a 
+
+                    String name = "Jitu";
+
+    1. name.length() -> Reutrn length of String name (5 in this case)
+    
+    2. name.toLowerCase() -> Returns a new string which has all the lowercase characters from the string name.
+
+    3. name.toUpperCase() -> Return a new String which has all the lowercase characters form the string name
+
+    4. name.trim() -> Return a new string after removing all the leading and travelling spaces from the originally string.
+
+    5. name.substring(int short) -> Returns a substring from start to the end substring(3) returns "ry"  [Note that rt starts from 0]
+
+
+    6. name.substring(int short, int end) -> Return a substring from short rt to the nd rt
+     
