@@ -1,0 +1,94 @@
+** Sometime we want to watch comedy videos on youtube if the day is sunday.
+Sometime, we order think food if it is out friday birthday in the hostel
+* You might want to buy an umbrealla if its raining and you have the money.
+* Your order the need if also or your favorite behind is listed on the menu.
+
+** All the are decisions which depends on a certain condition being meet.
+        In java, we can execute instructions on a condition being met.
+
+
+        ** Decision making Instructions in java.
+        -> If-else Statement.
+        -> Switch Statement.
+
+
+        *If-Else  Statement:-
+                        The syntax of an If-else Statement in C looks like that of C++ and JavaScrit java has a simillar syntax  too. It looks like:
+
+                        if(condition to be checked){
+                            Statement-if-condition-true;
+                        }
+
+                        else {
+                            Statement - if -condition-false
+                        }
+
+                        ** Code Example :-
+                            int a = 543;
+                            if(a>545){
+                                System.out.println("You can drive);
+                            }
+
+                            -> Note that the else block is optional
+
+                            ** Relational operators in Java:-
+                                        Relational operators are used to evaluate condition (true or false) inside the if Statement; some example of relational operators are:
+        ==, >=, <, >, <=, !=
+
+        -> Note :- '=' is used for assignemt where as '==' is used for equality check.
+        The coindition can be either ture or false;
+
+
+
+        * Logical operators:-
+                &&, ||, and ! are most commonly used logically operators in java.
+                These are read as:-
+                    && -> AND
+                    || -> OR
+                    ! -> NOT
+
+
+    ** AND operator :-
+                Evaluate to true if both the condition are true.
+    ** OR operator :-
+                Evalu8ates to true when at leaset one of the        conditions is true.
+
+    ** NOT operator:- 
+                Negates the given logica (true because false and false becomes true)
+                !Y = N                  Y-true
+                !N = Y                   N - false
+
+** else if clause :-
+                Instead of using multiple if Statement, we can also use else if along with if thus forming an if -else if-else ladder.  
+                        Using such kind of logical reduces indents. last else is executed only if all the conditons fail.
+
+        if(condition){
+            // Statement
+        }
+        else if{
+            //Statement
+        }
+        else {
+            // Statement
+        }
+
+
+        ** Switch Case control instructions:-
+                        Switch case is used when we have to make a choice between number of alternatives for a given variable.
+                        Switch (var) {
+                            //code;
+                            break;
+                        }
+                        case c2:
+                                //code
+                                break;
+                        case c3;
+                            // code
+                            break;
+                        defaut;
+                        //code
+            
+
+-> Var can  be an integer, character or string in java.
+-> A Switch can occuer within another but in practice this is rarely done.
+
