@@ -1,42 +1,41 @@
 public class StringOperations {
     public static void main(String[] args) {
-        String str = "  Hello, World!  ";
         
-        // Concatenation
-        String concatStr = str + " How are you?";
-        System.out.println("Concatenation: " + concatStr);
+        String str = "Raj";
+        // concentration
+        String concatString = str + "is Hero";
+        System.out.println("concatenation" + concatString);
 
-        // Length
         int length = str.length();
-        System.out.println("Length: " + length);
+        System.out.println(length);
 
-        // Substring
-        String subStr = str.substring(2, 7);
-        System.out.println("Substring: " + subStr);
+        // String subString = str.substring(4, 6);
 
-        // Comparison
-        boolean isEqual = str.equals("Hello, World!");
-        System.out.println("Equals: " + isEqual);
+        // comparison
+        boolean isEqual = str.equals("Maj");
 
-        // Case Conversion
-        String upperStr = str.toUpperCase();
-        String lowerStr = str.toLowerCase();
-        System.out.println("Uppercase: " + upperStr);
-        System.out.println("Lowercase: " + lowerStr);
+        System.out.println("Equal : -" + isEqual);
 
-        // Trim
+        String upperString = str.toLowerCase();
+        String lowerCase = str.toUpperCase();
+
+        System.out.println(upperString);
+        System.out.println(lowerCase);
+
         String trimmedStr = str.trim();
         System.out.println("Trimmed: " + trimmedStr);
+        System.out.println(trimmedStr);
 
-        // Replace
-        String replacedStr = str.replace("World", "Java");
-        System.out.println("Replaced: " + replacedStr);
+        String replaceStr = str.replace("Raj", "How are you" );
 
-        // Split
+        System.out.println("Replaced:" +replaceStr);
+
         String[] splitStr = str.split(",");
-        System.out.println("Split:");
-        for (String s : splitStr) {
+        System.out.println("Split");
+        for(String s : splitStr){
             System.out.println(s.trim());
         }
-    }
+
+    }    
 }
+
