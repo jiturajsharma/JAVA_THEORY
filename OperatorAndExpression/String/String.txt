@@ -31,5 +31,20 @@
     5. name.substring(int short) -> Returns a substring from start to the end substring(3) returns "ry"  [Note that rt starts from 0]
 
 
-    6. name.substring(int short, int end) -> Return a substring from short rt to the nd rt
-     
+    6. name.substring(int short, int end) -> Return a substring from short index to the end index. short tindex is included  and end is executed
+
+7. name.replace('r', 'p') -> Returns a new string after replacing r with p. happy is returned in this case.
+
+8. name.studentsWith('Ha') -> returns true if name starts with sting 'Ha' true on this use !
+
+9. name.endWith('ry') -> returns true if name ends with string 'ry' true in this case
+
+
+* Escape Sequence characters :- 
+                    Sequence of characters after backstand '\' = Escape sequence characters
+
+    -> Escape sequence characters consits of more than one characters but represents are character when used within the stings.
+
+    Example :-   \n, \t, \, \\, etc
+
+    
