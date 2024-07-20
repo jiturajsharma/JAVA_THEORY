@@ -1,0 +1,51 @@
+** Array is a collection of  similar types of data
+
+Use Case:- 
+                Storing makes of 5 students
+    int[] makes = new int [5] -> (data types ArrayName)
+
+    ** Accessing Array Elements :-
+                        Array elements can be caused as follows 
+                    marks[0] = 100;
+                    marks[2]= 43,53;        -> Note that index starts from 0
+                    marks [4] = 34;
+
+    So in a nut shell, this is how is array words:
+    1. int[] marks;         -> Declation!
+    2. marks = new int[5];  -> Memory allocation
+
+    int [] marks = new int[5] -> Declaring + memory allocation!
+    int [] marks = {200, 43, 53,343} -> Declared + initialize!
+
+    -> Array index starts from 0 and goes till (n-1) where n is the size of array.
+
+    * Array Length  :-
+                    Array have a length property which gives the length of the Array.;
+                            marks.length -> gives 5 if marks makes is a replace to array with 5 ele4ments
+
+
+* Displaying an Array :->
+                    An array can be displayed using a for loop;
+        for(int i=0; i<marks.length;i++){
+            sout(marks[i]) -> array traversal
+        }
+
+    
+    * For-each-lop in java:-
+                Array elements can also be traversed as follows:-
+
+            for(int element : Arr){
+                sout (element); -> Prints all the elments
+            }
+
+        
+    ** Multidimensional Arrays:-
+                    Multidimensional arrays are array of arrays each elements of a M-D array is an array itself marks in the previous example ways a -D  
+
+
+    Multidimensional 2-D Array :-
+                A 2-D array can be created as follows:-
+            int [] [] floats = new int [2] [3]
+
+
+    

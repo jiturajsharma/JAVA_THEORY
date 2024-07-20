@@ -1,0 +1,57 @@
+** Sometimes we want our programs to execute a few set of instructions over and over again for example - print of 7 table etc.
+                Loops make it easy for us to tell the computers that a given set of instructions need to be executed repeately.
+
+                *****Types of Loops****
+            Primarily, there are three types of loops in java.
+        1. While loops
+        2. do-while loops
+        3. For loops
+                    We will look into these one by one
+            
+    1. While Loops :-
+                While(boolean Condition){
+                    // statement -> This peeps executing as long as the Conditionis true
+                }
+
+        -> If the condition never process false, the while loop reeps gettting executed. Such a loop is known as on infinite loop.
+
+        2. Do-while loop :-
+                    This loop is similar to a while loop execept the fact that it is gurranted to execute at least once.
+
+                do {
+                    // code
+                } while (condition)  -> Note this semicolon
+
+                while -> Check the condition & execute the code 
+                do-while -> Executes the code & then checks the condition.
+
+
+                 ** For loop :-
+                                the syntax of a for loop books like this :
+                        for(initilize: check bed expression, update){
+                            // code;
+                        }
+
+        -> A for loop is usually used to execute a piece of code for specific number of times.
+
+
+
+        ** Decrementing for loop :
+                        for (i =7; i!=0; i--){
+                            system.out.println(i)
+                        }
+            This for loop keeps running until i becomes 0;
+
+***Break statement:-
+                The break statement is used to exit the lop irrepsective of whether the conditino is treu or false.
+                    Where a 'break' is encountered inside the loop, the control is sent outside the loop.
+
+    *** Continue statement :-
+                    The continue statement is used to immideately move to the next iteration of the loop the control is taken to the next iteration this skipping everything below 'continue' inside the loop for that iteraiton;
+
+    ***In a Nut shell....
+    1. Break statement completely exits the loop
+    2. continue statement skips the particular iteration of the loop.
+
+    
+
