@@ -58,12 +58,21 @@
         
         //  -> String constant pool  is don't allow to make duplicate reference
 
+                        String system1 = new String("PW Skills");
+                        String system2 = new String("PW Skills");
 
+                        System.out.println(system1==system2);
 
+                        System.out.println(system1.equals(system2));  // equal is compare to value 
 
-                        
+                String sys = new String("PW");
+                        sys = sys.concat("Skills");
+                        System.out.println(sys);    // value we added them and add again value in then reference old value will be leave and table the new reference.
 
+                        String sys1 = "Pw skills";
+                        String sys2 = sys1.concat("JITU");
+                                System.out.println(sys2);
 
+                                
                 }
-        
 }
