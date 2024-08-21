@@ -9,11 +9,13 @@ public class TreeSetMethod {
         ts.add(50);
         ts.add(150);
         ts.add(25);
+        ts.add(75);
+        ts.add(125);
         ts.add(175);
 
         // we can not order of prensesation 
 
-        // in output data is a shorted order
+        // in output data will come shorted order
         System.out.println(ts);
     }
 }
